@@ -20,25 +20,34 @@
 
     <title>Semintra Code Review 04</title>
   </head>
+
   <body>
+    <!-- ### Header begins here ### -->
+
     <div class="container">
-      <div class="row">
+      <div class="row-fluid">
         <header>
           <div
-            class="col text-white fs-1 d-flex justify-content-center align-items-center pt-2 pb-3"
+            class="col text-white fs-1 d-flex justify-content-center align-items-center pt-3 pb-3"
           >
             Movie Factory
           </div>
         </header>
       </div>
+
+      <!-- ### Nav-bar begins here ### -->
+
       <div class="row">
         <nav>
-          <div class="col bg-secondary fs-5 text-white fw-bold pt-1 px-3 pb-2">
+          <div class="col bg-secondary fs-5 text-white fw-bold pt-2 ps-3 pb-2">
             Home
           </div>
         </nav>
       </div>
-      <div class="row">
+
+      <!-- ### Sort-bar begins here ### -->
+
+      <div class="row-fluid">
         <div
           id="sort"
           class="col bg-dark text-secondary d-flex justify-content-between ps-4 py-2"
@@ -48,11 +57,17 @@
           <div class="align-self-end pe-3">v Sort</div>
         </div>
       </div>
-      <div class="row">
-        <div id="content" class="col bg-dark" style="height: 50vh"></div>
-      </div>
 
-      <div class="row">
+      <!-- ### Main-content begins here ### -->
+
+      <div
+        id="content"
+        class="row row-cols-2 bg-dark text-secondary g-2 p-0 m-0"
+      ></div>
+
+      <!-- ### Footer begins here ### -->
+
+      <div class="row-fluid">
         <footer>
           <div
             class="col d-flex justify-content-center fs-4 text-white pt-3 pb-4"

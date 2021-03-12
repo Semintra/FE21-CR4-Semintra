@@ -1,6 +1,5 @@
-body * {
-  padding: 0px !important;
-  margin: 0px;
+body {
+  background-color: #333333;
 }
 
 header,

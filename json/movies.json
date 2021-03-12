@@ -8,7 +8,7 @@ let moviedata = `
         "director": "Jackson Lee",
         "genre": "Thriller",
         "year": "2017",
-        "likes": "0"
+        "likes": "4"
     },
     {
         "movieName": "All about You",

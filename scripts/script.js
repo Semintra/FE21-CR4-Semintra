@@ -1,8 +1,8 @@
-//////////////////////////
-
 // ### Parse JSON-file ###
 
 var movies = JSON.parse(moviedata);
+
+// ### Create Movie-overview by using Bootstrap-cards ###
 
 var content = document.getElementById("content");
 
@@ -22,12 +22,10 @@ function movieCards() {
       ", " +
       movies[i].year +
       "</small></p>" +
-      "<p>likes: " +
+      "<div>likes</div><div class='liCount'>" + // ### Like-button counter target ###
       movies[i].likes +
-      "</p></div></div></div></div>";
+      "</div></div></div></div></div>";
   }
 }
-
-console.table(movies);
 
 movieCards();

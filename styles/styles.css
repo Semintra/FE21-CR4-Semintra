@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body * {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+header,
+footer {
+  background-color: black;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -14,7 +14,69 @@
       crossorigin="anonymous"
     />
 
+    <!-- ### Link own CSS file ### -->
+
+    <link type="text/css" rel="stylesheet" href="./styles/styles.css" />
+
     <title>Semintra Code Review 04</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header>
+          <div
+            class="col text-white fs-1 d-flex justify-content-center align-items-center pt-2 pb-3"
+          >
+            Movie Factory
+          </div>
+        </header>
+      </div>
+      <div class="row">
+        <nav>
+          <div class="col bg-secondary fs-5 text-white fw-bold pt-1 px-3 pb-2">
+            Home
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <div
+          id="sort"
+          class="col bg-dark text-secondary d-flex justify-content-between ps-4 py-2"
+        >
+          <div class="ps-4"></div>
+          <div class="fs-4 text-white">Movies</div>
+          <div class="align-self-end pe-3">v Sort</div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="content" class="col bg-dark" style="height: 50vh"></div>
+      </div>
+
+      <div class="row">
+        <footer>
+          <div
+            class="col d-flex justify-content-center fs-4 text-white pt-3 pb-4"
+          >
+            Movie Factory
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ### Link Bootstrap 5.0 JavaScript-Bundle ### -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ### Link JSON-data ### -->
+
+    <script src="./json/movies.json"></script>
+
+    <!-- ### Link own JavaScript file ### -->
+
+    <script type="text/javascript" src="./scripts/script.js"></script>
+  </body>
 </html>

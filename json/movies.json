@@ -4,205 +4,307 @@ let moviedata = `
     {
         "movieName": "The Night is Young",
         "image": "./images/movie01.jpg",
-        "description": "Thriller",
+        "description": "A film about doomed love with Machaela Cormick and Troy Turkowski",
+        "director": "Jackson Lee",
+        "genre": "Thriller",
+        "year": "2017",
         "likes": "0"
     },
     {
         "movieName": "All about You",
         "image": "./images/movie02.jpg",
-        "description": "Romance",
+        "description": "A true romance with Sara McKenzie and David Alberts",
+        "director": "Oliver Alvarez",
+        "genre": "Romance",
+        "year": "2015",
         "likes": "0"
     },
     {
         "movieName": "Lighting Shadows",
         "image": "./images/movie03.jpg",
-        "description": "Mystery",
+        "description": "Seek the light. Find a way. From the director of 'The Slay on Me'",
+        "director": "Peter DeLorean",
+        "genre": "Mystery",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "Lost Girl",
         "image": "./images/movie04.jpg",
-        "description": "Drama",
+        "description": "The enemy was getting closer. And closer. And closer.",
+        "director": "Thomas Van Dorn",
+        "genre": "Drama",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "The Life of Richard Parker",
         "image": "./images/movie05.jpg",
-        "description": "Historical",
+        "description": "The one with the tiger, that's the better story.",
+        "director": "Anita Bryant",
+        "genre": "Historical",
+        "year": "2014",
         "likes": "0"
     },
     {
         "movieName": "A Mountain for Dreamers",
         "image": "./images/movie06.jpg",
-        "description": "Drama",
+        "description": "They will wander somewhere only legends tread.",
+        "director": "Joseph Cunnings",
+        "genre": "Drama",
+        "year": "2012",
         "likes": "0"
     },
     {
         "movieName": "Into the Darkness",
         "image": "./images/movie07.jpg",
-        "description": "Thriller",
+        "description": "She saw him. She saw him get killed. She saw the life drain out of his eyes.",
+        "director": "Levi Stanford",
+        "genre": "Thriller",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "The Lost Girl",
         "image": "./images/movie08.jpg",
-        "description": "Thriller",
+        "description": "Would you save her? Would you? Be honest.",
+        "director": "Mary Jefferson",
+        "genre": "Thriller",
+        "year": "2020",
         "likes": "0"
     },
     {
         "movieName": "With my own Eye",
         "image": "./images/movie09.jpg",
-        "description": "Action",
+        "description": "He was given false papers, a gun disguised as a pen and the codename Peter.",
+        "director": "Ricky Richards",
+        "genre": "Action",
+        "year": "2013",
         "likes": "0"
     },
     {
         "movieName": "Love, Africa",
         "image": "./images/movie10.jpg",
-        "description": "Adventure",
+        "description": "A true story. Adapted by the author of 'A World full of Janes'.",
+        "director": "Miles Henderson",
+        "genre": "Adventure",
+        "year": "2010",
         "likes": "0"
     },
     {
         "movieName": "Just my Type",
         "image": "./images/movie11.jpg",
-        "description": "Romance",
+        "description": "A story about falling in and out of love.",
+        "director": "Stephen Parson",
+        "genre": "Romance",
+        "year": "2017",
         "likes": "0"
     },
     {
         "movieName": "Blood, Bone, and Beasts",
         "image": "./images/movie12.jpg",
-        "description": "Horror",
+        "description": "Helloween movie screening for ages 16 and above.",
+        "director": "Mike Babbleside",
+        "genre": "Horror",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "She",
         "image": "./images/movie13.jpg",
-        "description": "Romance",
+        "description": "Everybody gets old. Not everybody grows up.",
+        "director": "Lucas Buckley",
+        "genre": "Romance",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "Fright Night",
         "image": "./images/movie14.jpg",
-        "description": "Horror",
+        "description": "Run faster! A Halloween special by Nuvali Outdoor Cinema.",
+        "director": "Franklin Webber",
+        "genre": "Horror",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "Macky's Crazy Experiences",
         "image": "./images/movie15.jpg",
-        "description": "Comedy",
+        "description": "Breaking the laws of physics. And more.",
+        "director": "Jacqueline Thompson",
+        "genre": "Comedy",
+        "year": "2020",
         "likes": "0"
     },
     {
         "movieName": "Adrift",
         "image": "./images/movie16.jpg",
-        "description": "Thriller",
+        "description": "How long can you survive on your own?",
+        "director": "Emmet Johnson",
+        "genre": "Thriller",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "Never Stop Looking",
         "image": "./images/movie17.jpg",
-        "description": "Mystery",
+        "description": "Thrilling. Official entry. Best short independent film.",
+        "director": "Leonard Gabriel",
+        "genre": "Mystery",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "Locked",
         "image": "./images/movie18.jpg",
-        "description": "Horror",
+        "description": "Whatever it is - it wants to escape.",
+        "director": "River Gunnarson",
+        "genre": "Horror",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "The Way we Get By",
         "image": "./images/movie19.jpg",
-        "description": "Historical",
+        "description": "Heartbreaking. With Shaylee Woodard and Danielle Greene.",
+        "director": "Reed Barron",
+        "genre": "Historical",
+        "year": "2016",
         "likes": "0"
     },
     {
         "movieName": "Down the Rabbit Hole",
         "image": "./images/movie20.jpg",
-        "description": "Horror",
+        "description": "She was falling ...",
+        "director": "Jonathan Leonardi",
+        "genre": "Horror",
+        "year": "2018",
         "likes": "0"
     },
     {
         "movieName": "En Route",
         "image": "./images/movie21.jpg",
-        "description": "Romance",
+        "description": "An unlikely romance blossoms from a fated encounter.",
+        "director": "Monica Denrose",
+        "genre": "Romance",
+        "year": "2020",
         "likes": "0"
     },
     {
         "movieName": "The Great Big Bridge",
         "image": "./images/movie22.jpg",
-        "description": "Adventure",
+        "description": "Are you ever ready to cross into the unknown?",
+        "director": "Eleanor Fitzgerald",
+        "genre": "Adventure",
+        "year": "2006",
         "likes": "0"
     },
     {
         "movieName": "Demilitarized: a Movie",
         "image": "./images/movie23.jpg",
-        "description": "Historical",
+        "description": "A veteran's tale of struggle and redemption.",
+        "director": "Sophie Turner",
+        "genre": "Historical",
+        "year": "2011",
         "likes": "0"
     },
     {
         "movieName": "The Love of Mine",
         "image": "./images/movie24.jpg",
-        "description": "Romance",
+        "description": "The love between them isn't right, some would say.",
+        "director": "Leo Eriksen & Bill Clary",
+        "genre": "Romance",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "Land & Sea",
         "image": "./images/movie25.jpg",
-        "description": "Adventure",
+        "description": "A great journey. With Alan Pratt, Sadie Wade and Jamie Benson.",
+        "director": "Erma Rose",
+        "genre": "Adventure",
+        "year": "2018",
         "likes": "0"
     },
     {
         "movieName": "A Love Affair in Transit",
         "image": "./images/movie26.jpg",
-        "description": "Romance",
+        "description": "Must see. Starring Barry Hyun and Oly Fisher.",
+        "director": "Tim Smithers",
+        "genre": "Romance",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "The Walk",
         "image": "./images/movie27.jpg",
-        "description": "Drama",
+        "description": "Find the courage to be yourself.",
+        "director": "Nick Allen",
+        "genre": "Drama",
+        "year": "2013",
         "likes": "0"
     },
     {
         "movieName": "We're All Lost",
         "image": "./images/movie28.jpg",
-        "description": "Action",
+        "description": "Just so we are clear, I hate being the new kid.",
+        "director": "Anita Rogers",
+        "genre": "Action",
+        "year": "2019",
         "likes": "0"
     },
     {
         "movieName": "Charging to Victory",
         "image": "./images/movie29.jpg",
-        "description": "Historical",
+        "description": "The true story that inspired the award-winning novel.",
+        "director": "Isabel Mercaldo",
+        "genre": "Historical",
+        "year": "2020",
         "likes": "0"
     },
     {
         "movieName": "Silhouettes in the Attic",
         "image": "./images/movie30.jpg",
-        "description": "Horror",
+        "description": "When your nightmares unfold before your very eyes ...",
+        "director": "Tucker Meyers",
+        "genre": "Horror",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "Top of the World",
         "image": "./images/movie31.jpg",
-        "description": "Drama",
+        "description": "A story about pain and enduring it.",
+        "director": "Jeff Sandringham",
+        "genre": "Drama",
+        "year": "2017",
         "likes": "0"
     },
     {
         "movieName": "The Crazy Experiences",
         "image": "./images/movie32.jpg",
-        "description": "Satire",
+        "description": "This will probably blow your mind into pieces.",
+        "director": "Josephine Watson",
+        "genre": "Satire",
+        "year": "2018",
         "likes": "0"
     },
     {
         "movieName": "Train to Hell",
         "image": "./images/movie33.jpg",
-        "description": "Horror",
+        "description": "Where do you believe are you going?",
+        "director": "Sandrine Ford",
+        "genre": "Horror",
+        "year": "2021",
         "likes": "0"
     },
     {
         "movieName": "Love Letter to Goulcrest",
         "image": "./images/movie34.jpg",
-        "description": "Romance",
+        "description": "Sometimes you find yourself in the unfamiliar.",
+        "director": "Robert Stern",
+        "genre": "Romance",
+        "year": "2020",
         "likes": "0"
     }
 ]

@@ -1,0 +1,209 @@
+let movies = `
+
+[
+    {
+        "movieName": "The Night is Young",
+        "image": "./images/movie01.jpg",
+        "description": "Thriller",
+        "likes": "0"
+    },
+    {
+        "movieName": "All about You",
+        "image": "./images/movie02.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "Lighting Shadows",
+        "image": "./images/movie03.jpg",
+        "description": "Mystery",
+        "likes": "0"
+    },
+    {
+        "movieName": "Lost Girl",
+        "image": "./images/movie04.jpg",
+        "description": "Drama",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Life of Richard Parker",
+        "image": "./images/movie05.jpg",
+        "description": "Historical",
+        "likes": "0"
+    },
+    {
+        "movieName": "A Mountain for Dreamers",
+        "image": "./images/movie06.jpg",
+        "description": "Drama",
+        "likes": "0"
+    },
+    {
+        "movieName": "Into the Darkness",
+        "image": "./images/movie07.jpg",
+        "description": "Thriller",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Lost Girl",
+        "image": "./images/movie08.jpg",
+        "description": "Thriller",
+        "likes": "0"
+    },
+    {
+        "movieName": "With my own Eye",
+        "image": "./images/movie09.jpg",
+        "description": "Action",
+        "likes": "0"
+    },
+    {
+        "movieName": "Love, Africa",
+        "image": "./images/movie10.jpg",
+        "description": "Adventure",
+        "likes": "0"
+    },
+    {
+        "movieName": "Just my Type",
+        "image": "./images/movie11.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "Blood, Bone, and Beasts",
+        "image": "./images/movie12.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "She",
+        "image": "./images/movie13.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "Fright Night",
+        "image": "./images/movie14.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "Macky's Crazy Experiences",
+        "image": "./images/movie15.jpg",
+        "description": "Comedy",
+        "likes": "0"
+    },
+    {
+        "movieName": "Adrift",
+        "image": "./images/movie16.jpg",
+        "description": "Thriller",
+        "likes": "0"
+    },
+    {
+        "movieName": "Never Stop Looking",
+        "image": "./images/movie17.jpg",
+        "description": "Mystery",
+        "likes": "0"
+    },
+    {
+        "movieName": "Locked",
+        "image": "./images/movie18.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Way we Get By",
+        "image": "./images/movie19.jpg",
+        "description": "Historical",
+        "likes": "0"
+    },
+    {
+        "movieName": "Down the Rabbit Hole",
+        "image": "./images/movie20.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "En Route",
+        "image": "./images/movie21.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Great Big Bridge",
+        "image": "./images/movie22.jpg",
+        "description": "Adventure",
+        "likes": "0"
+    },
+    {
+        "movieName": "Demilitarized: a Movie",
+        "image": "./images/movie23.jpg",
+        "description": "Historical",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Love of Mine",
+        "image": "./images/movie24.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "Land & Sea",
+        "image": "./images/movie25.jpg",
+        "description": "Adventure",
+        "likes": "0"
+    },
+    {
+        "movieName": "A Love Affair in Transit",
+        "image": "./images/movie26.jpg",
+        "description": "Romance",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Walk",
+        "image": "./images/movie27.jpg",
+        "description": "Drama",
+        "likes": "0"
+    },
+    {
+        "movieName": "We're All Lost",
+        "image": "./images/movie28.jpg",
+        "description": "Action",
+        "likes": "0"
+    },
+    {
+        "movieName": "Charging to Victory",
+        "image": "./images/movie29.jpg",
+        "description": "Historical",
+        "likes": "0"
+    },
+    {
+        "movieName": "Silhouettes in the Attic",
+        "image": "./images/movie30.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "Top of the World",
+        "image": "./images/movie31.jpg",
+        "description": "Drama",
+        "likes": "0"
+    },
+    {
+        "movieName": "The Crazy Experiences",
+        "image": "./images/movie32.jpg",
+        "description": "Satire",
+        "likes": "0"
+    },
+    {
+        "movieName": "Train to Hell",
+        "image": "./images/movie33.jpg",
+        "description": "Horror",
+        "likes": "0"
+    },
+    {
+        "movieName": "Love Letter to Goulcrest",
+        "image": "./images/movie34.jpg",
+        "description": "Romance",
+        "likes": "0"
+    }
+]
+`

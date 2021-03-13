@@ -21,30 +21,13 @@ body {
 .navbar {
   background-color: #f1eedf;
   border-radius: 0.3em;
+  img {
+    position: absolute;
+    width: 6em;
+    left: 8em;
+    bottom: -0.4em;
+  }
 }
-
-// .carouselImg img {
-//   border-radius: 0.3em;
-//   height: 100%;
-//   min-height: 100%;
-//   max-height: 15.1em;
-//   width: 18.63vw;
-// }
-
-// .carousel-inner {
-//   height: 500px;
-// }
-
-// .carousel-inner .item {
-//   max-width: 100%;
-//   max-height: 100%;
-// }
-
-// .carousel-inner .item img {
-//   width: 100%;
-//   min-height: 100%;
-//   max-height: none;
-// }
 
 .container {
   border-radius: 0.5em;
@@ -70,14 +53,6 @@ body {
   margin-bottom: 0.13em;
   border-bottom-left-radius: 0.1em;
 }
-// body * {
-//   padding: 0px !important;
-//   margin: 0px;
-// }
-
-// .card {
-//   margin: 1em;
-// }
 
 .navi {
   background-color: #919080;
@@ -102,6 +77,9 @@ body {
 .inCard {
   background-image: url(../images/dark_wood.png);
   border-radius: 0.3em;
+  img {
+    border-radius: 0.2em;
+  }
 }
 
 .footer {

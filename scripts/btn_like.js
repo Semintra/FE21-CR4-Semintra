@@ -2,9 +2,10 @@
 
 function btnLikes() {
   for (let i in movies) {
-    var buttonCount = document.getElementsByClassName("card");
+    var buttonCount = document.getElementsByClassName("liButton");
     var countTarget = document.getElementsByClassName("liCount");
-    buttonCount[i].innerHTML += "<button class='blike'>Like me</button>";
+    buttonCount[i].innerHTML +=
+      "<button class='blike btn btn-sm btn-success mt-2 py-0'>Like +1</button>";
     var bcount = document.getElementsByClassName("blike");
     bcount[i].addEventListener("click", addLike);
     function addLike() {

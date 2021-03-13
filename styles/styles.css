@@ -23,6 +23,13 @@ body {
   border-radius: 0.3em;
 }
 
+.navbar img {
+  position: absolute;
+  width: 6em;
+  left: 8em;
+  bottom: -0.4em;
+}
+
 .container {
   border-radius: 0.5em;
   background-color: #5c0000;
@@ -71,6 +78,10 @@ body {
 .inCard {
   background-image: url(../images/dark_wood.png);
   border-radius: 0.3em;
+}
+
+.inCard img {
+  border-radius: 0.2em;
 }
 
 .footer {

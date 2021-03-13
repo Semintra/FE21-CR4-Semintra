@@ -25,12 +25,11 @@ function newCardsThrill() {
       listThrillers[i].description +
       "</p><p class='card-text'>directed by: " +
       listThrillers[i].director +
-      "</p><small class='text-muted'>" +
+      "</p><div class='text-muted'>" +
       listThrillers[i].genre +
       ", " +
       listThrillers[i].year +
-      "</small></p>" +
-      "<div>likes</div><div class='liCount'>" + // ### Like-button counter target ###
+      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
       listThrillers[i].likes +
       "</div></div></div></div></div>";
   }

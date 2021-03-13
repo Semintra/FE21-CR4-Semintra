@@ -19,17 +19,16 @@ function movieCards() {
       movies[i].description +
       "</p><p class='card-text'>directed by: " +
       movies[i].director +
-      "</p><small class='text-muted'>" +
+      "</p><div class='text-muted'>" +
       movies[i].genre +
       ", " +
       movies[i].year +
-      "</small></p>" +
-      "<div>likes</div><div class='liCount'>" + // ### Like-button counter target ###
+      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
       movies[i].likes +
-      "</div></div></div></div></div>";
+      "</button></div></div></div></div></div>";
   }
 
-  // ### Checking if the movies' ranks ###
+  // ### Checking if the movies' ranks
 
   if (movies[0].likes > 0) {
     document.getElementById("rCard0").innerHTML +=

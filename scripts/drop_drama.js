@@ -23,12 +23,11 @@ function newCardsDrama() {
       listDramas[i].description +
       "</p><p class='card-text'>directed by: " +
       listDramas[i].director +
-      "</p><small class='text-muted'>" +
+      "</p><div class='text-muted'>" +
       listDramas[i].genre +
       ", " +
       listDramas[i].year +
-      "</small></p>" +
-      "<div>likes</div><div class='liCount'>" + // ### Like-button counter target ###
+      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
       listDramas[i].likes +
       "</div></div></div></div></div>";
   }

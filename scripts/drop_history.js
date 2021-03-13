@@ -25,12 +25,11 @@ function newCardsHistory() {
       listHistories[i].description +
       "</p><p class='card-text'>directed by: " +
       listHistories[i].director +
-      "</p><small class='text-muted'>" +
+      "</p><div class='text-muted'>" +
       listHistories[i].genre +
       ", " +
       listHistories[i].year +
-      "</small></p>" +
-      "<div>likes</div><div class='liCount'>" + // ### Like-button counter target ###
+      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
       listHistories[i].likes +
       "</div></div></div></div></div>";
   }

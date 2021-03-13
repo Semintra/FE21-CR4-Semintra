@@ -285,7 +285,7 @@ let moviedata = `
         "image": "./images/movie32.jpg",
         "description": "This will probably blow your mind into pieces.",
         "director": "Josephine Watson",
-        "genre": "Satire",
+        "genre": "Comedy",
         "year": "2018",
         "likes": "0"
     },

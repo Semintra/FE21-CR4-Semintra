@@ -84,75 +84,77 @@
 
       <div class="row">
         <nav>
-          <div class="navi col fs-5 fw-bold pt-2 ps-3 pb-2">
-            <!-- ###########################################################################################-->
+          <div class="navi fs-3 fw-bold px-3">
+            <nav class="navbar navbar-expand-md navbar-light pe-4">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse px-3"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tickets</a>
+                  </li>
+                </ul>
+              </div>
 
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-              <div class="container-fluid">
+              <div class="dropdown">
                 <button
-                  class="navbar-toggler"
+                  class="btn btn-secondary dropdown-toggle"
                   type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon"></span>
+                  Sort by Genre
                 </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
+                <ul
+                  class="dropdown-menu bg-secondary"
+                  aria-labelledby="dropdownMenuButton1"
                 >
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Dropdown
-                      </a>
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                      >
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li>
-                          <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li>
-                          <a class="dropdown-item" href="#"
-                            >Something else here</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <button
-                    id="sort"
-                    class="btn btn-outline-success"
-                    type="submit"
-                  >
-                    Sort by Likes
-                  </button>
-                </div>
+                  <li><a class="dropdown-item" href="#">Thriller</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Romance</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Mystery</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Horror</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Historical</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Adventure</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Comedy</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Drama</a>
+                  </li>
+                </ul>
+                <button id="sort" class="btn btn-secondary" type="submit">
+                  Sort by Likes
+                </button>
               </div>
             </nav>
-
-            <!-- ######################################################################################################-->
           </div>
         </nav>
       </div>
@@ -179,8 +181,12 @@
 
       <div class="row-fluid">
         <footer>
-          <div class="footer col d-flex justify-content-center fs-4 pt-3 pb-4">
-            Movie Factory
+          <div class="footerOut px-3">
+            <div
+              class="footer col d-flex justify-content-center fs-4 mt-2 pt-3 pb-4"
+            >
+              Movie Factory
+            </div>
           </div>
         </footer>
       </div>

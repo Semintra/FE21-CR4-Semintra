@@ -18,6 +18,11 @@ body {
   }
 }
 
+.navbar {
+  background-color: #f1eedf;
+  border-radius: 0.3em;
+}
+
 // .carouselImg img {
 //   border-radius: 0.3em;
 //   height: 100%;
@@ -77,6 +82,7 @@ body {
 .navi {
   background-color: #919080;
   border-radius: 0.3em;
+  padding: 0.3em;
 }
 
 #content {
@@ -84,8 +90,7 @@ body {
   background-image: url(../images/dark_bg.jpg);
   background-size: contain;
   padding-top: 2em;
-  border-top-left-radius: 0.4em;
-  border-top-right-radius: 0.4em;
+  border-radius: 0.4em;
 }
 
 .card {
@@ -100,9 +105,20 @@ body {
 }
 
 .footer {
+  background-color: #f1eedf;
+  border-radius: 0.3em;
+  font-family: "Monoton", cursive;
+  font-size: 5.5rem;
+  color: white;
+  text-shadow: 4px 2px 0px black;
+}
+
+.footerOut {
   background-color: #919080;
-  border-bottom-left-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
+  margin-top: 0.7em;
+  border-radius: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.65em;
 }
 
 // ### Media-queries for Carousel-images ###

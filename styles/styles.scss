@@ -5,16 +5,25 @@ body {
 }
 
 #carousel {
-  height: 14.75em;
+  height: 15.1em;
   background-color: #5c0000;
   margin-bottom: 0.5em;
   overflow: hidden;
+  div {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
 }
 
-.carouselImg img {
-  border-radius: 0em;
-  height: 14.75em;
-}
+// .carouselImg img {
+//   border-radius: 0.3em;
+//   height: 100%;
+//   min-height: 100%;
+//   max-height: 15.1em;
+//   width: 18.63vw;
+// }
 
 // .carousel-inner {
 //   height: 500px;
@@ -48,7 +57,7 @@ body {
   background-position: top;
   height: 3.5em;
   font-family: "Monoton", cursive;
-  font-size: 4.1em;
+  font-size: 3.5rem;
   text-shadow: 4px 2px 0px black;
   padding-bottom: 1em;
   border-radius: 0.1em;
@@ -94,4 +103,42 @@ body {
   background-color: #919080;
   border-bottom-left-radius: 0.3em;
   border-bottom-right-radius: 0.3em;
+}
+
+// ### Media-queries for Carousel-images ###
+
+@media screen and (max-width: 575px) {
+  #carousel {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #carousel {
+    height: 14.95em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #carousel {
+    height: 15.09em;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #carousel {
+    height: 16.19em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #carousel {
+    height: 19.4em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #carousel {
+    height: 18.75em;
+  }
 }

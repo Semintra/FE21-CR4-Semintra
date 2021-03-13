@@ -8,7 +8,7 @@ let moviedata = `
         "director": "Jackson Lee",
         "genre": "Thriller",
         "year": "2017",
-        "likes": "4"
+        "likes": "3"
     },
     {
         "movieName": "All about You",
@@ -17,7 +17,7 @@ let moviedata = `
         "director": "Oliver Alvarez",
         "genre": "Romance",
         "year": "2015",
-        "likes": "0"
+        "likes": "2"
     },
     {
         "movieName": "Lighting Shadows",
@@ -26,7 +26,7 @@ let moviedata = `
         "director": "Peter DeLorean",
         "genre": "Mystery",
         "year": "2019",
-        "likes": "0"
+        "likes": "1"
     },
     {
         "movieName": "Lost Girl",

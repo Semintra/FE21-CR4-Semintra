@@ -23,12 +23,17 @@ body {
   background-color: #f1eedf;
   border-radius: 0.3em;
   box-shadow: 0px 3px 4px black;
+  padding-top: 0.1em;
   img {
     position: absolute;
-    width: 6em;
+    width: 6.5em;
     left: 8em;
     bottom: -0.4em;
   }
+}
+
+.btn {
+  box-shadow: 0px 2px 3px black;
 }
 
 .container {
@@ -77,13 +82,19 @@ body {
 .card {
   background-color: #5a0000;
   padding: 0.5em;
-  border-radius: 0.4em;
   box-shadow: 0px 3px 4px black;
 }
 
-.inCard {
+.inCard1 {
   background-image: url(../images/dark_wood.png);
-  border-radius: 0.3em;
+  box-shadow: 0px 3px 4px black;
+  img {
+    border-radius: 0.2em;
+  }
+}
+
+.inCard2 {
+  background-image: url(../images/dark_wood.png);
   box-shadow: 0px 3px 4px black;
   img {
     border-radius: 0.2em;
@@ -129,6 +140,9 @@ body {
   #carousel {
     display: none;
   }
+  #menuIcon {
+    display: none;
+  }
 
   .card {
     background-color: black;
@@ -136,13 +150,16 @@ body {
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 765px) {
+@media screen and (min-width: 576px) and (max-width: 766px) {
   #carousel {
     height: 14.95em;
   }
+  #menuIcon {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 766px) and (max-width: 990px) {
+@media screen and (min-width: 767px) and (max-width: 990px) {
   #carousel {
     height: 15.09em;
   }

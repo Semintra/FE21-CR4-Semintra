@@ -17,9 +17,9 @@ function searchSortAction() {
 function newCardsAction() {
   for (i = 0; i < listActions.length; i++) {
     content.innerHTML +=
-      "<div class='card col-sm-5 mb-3 mx-auto' style='max-width: 540px'><div class='row g-0'><div class='inCard liButton col-md-4 ps-2 pt-2'><img src='" +
+      "<div class='card col-sm-5 mb-3 mx-auto' style='max-width: 540px'><div class='row g-0'><div class='inCard1 rounded-start liButton col-md-4 ps-2 pt-2'><img src='" +
       listActions[i].image +
-      "' class='img-fluid'></div><div class='inCard col-md-8'><div class='card-body'><h5 class='card-title'>" +
+      "' class='img-fluid'></div><div class='inCard2 rounded-end col-md-8'><div class='card-body'><h5 class='card-title'>" +
       listActions[i].movieName +
       "</h5><p class='card-text'>" +
       listActions[i].description +

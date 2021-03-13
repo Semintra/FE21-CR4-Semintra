@@ -17,9 +17,9 @@ function searchSortAdventure() {
 function newCardsAdventure() {
   for (i = 0; i < listAdventuries.length; i++) {
     content.innerHTML +=
-      "<div class='card col-sm-5 mb-3 mx-auto' style='max-width: 540px'><div class='row g-0'><div class='inCard liButton col-md-4 ps-2 pt-2'><img src='" +
+      "<div class='card col-sm-5 mb-3 mx-auto' style='max-width: 540px'><div class='row g-0'><div class='inCard1 rounded-start liButton col-md-4 ps-2 pt-2'><img src='" +
       listAdventuries[i].image +
-      "' class='img-fluid'></div><div class='inCard col-md-8'><div class='card-body'><h5 class='card-title'>" +
+      "' class='img-fluid'></div><div class='inCard2 rounded-end col-md-8'><div class='card-body'><h5 class='card-title'>" +
       listAdventuries[i].movieName +
       "</h5><p class='card-text'>" +
       listAdventuries[i].description +

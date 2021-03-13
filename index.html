@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ### Embed Monoton-font from Google ### -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- ### Link Bootstrap 5.0 CSS ### -->
 
     <link
@@ -24,11 +32,40 @@
   <body>
     <!-- ### Header begins here ### -->
 
-    <div class="container">
-      <div class="row-fluid">
+    <div class="container my-5">
+      <div class="row-fluid topheader">
         <header>
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div>
+              <div class="carousel-item active carouselImg">
+                <img src="./images/movie11.jpg" />
+                <img src="./images/movie12.jpg" />
+                <img src="./images/movie13.jpg" />
+                <img src="./images/movie18.jpg" />
+                <img src="./images/movie19.jpg" />
+                <img src="./images/movie20.jpg" />
+                <img src="./images/movie25.jpg" />
+                <img src="./images/movie26.jpg" />
+                <img src="./images/movie27.jpg" />
+              </div>
+              <div class="carousel-item carouselImg">
+                <img src="./images/movie21.jpg" />
+                <img src="./images/movie22.jpg" />
+                <img src="./images/movie23.jpg" />
+                <img src="./images/movie24.jpg" />
+              </div>
+              <div class="carousel-item carouselImg">
+                <img src="./images/movie29.jpg" />
+                <img src="./images/movie30.jpg" />
+                <img src="./images/movie31.jpg" />
+                <img src="./images/movie32.jpg" />
+              </div>
+            </div>
+          </div>
+
           <div
-            class="col text-white fs-1 d-flex justify-content-center align-items-center pt-3 pb-3"
+            id="header"
+            class="col text-white d-flex justify-content-center align-items-end"
           >
             Movie Factory
           </div>
@@ -39,9 +76,7 @@
 
       <div class="row">
         <nav>
-          <div class="col bg-secondary fs-5 text-white fw-bold pt-2 ps-3 pb-2">
-            Home
-          </div>
+          <div class="navi col fs-5 fw-bold pt-2 ps-3 pb-2">Home</div>
         </nav>
       </div>
 
@@ -50,7 +85,7 @@
       <div class="row-fluid">
         <div
           id="sort"
-          class="col bg-dark text-secondary d-flex justify-content-between ps-4 py-2"
+          class="col text-secondary d-flex justify-content-between ps-4 py-2"
         >
           <div class="ps-4"></div>
           <div class="fs-4 text-white">Movies</div>
@@ -62,16 +97,14 @@
 
       <div
         id="content"
-        class="row row-cols-sm-2 bg-dark text-secondary g-2 px-2 pb-3 m-0"
+        class="row row-cols-sm-2 text-secondary g-2 px-2 pb-3 m-0"
       ></div>
 
       <!-- ### Footer begins here ### -->
 
       <div class="row-fluid">
         <footer>
-          <div
-            class="col d-flex justify-content-center fs-4 text-white pt-3 pb-4"
-          >
+          <div class="footer col d-flex justify-content-center fs-4 pt-3 pb-4">
             Movie Factory
           </div>
         </footer>

@@ -11,12 +11,9 @@ function btnLikes() {
       let up = parseInt(movies[i].likes) + 1;
       countTarget[i].innerHTML = up;
       movies[i].likes = up;
-      //JSON.stringify();             // ### This was just a test (too dangerous ^^) ###
-      console.log(movies[i].likes);
+      //JSON.stringify();             // ### This was just a test ###
     }
   }
 }
 
 btnLikes();
-
-console.log(movies[0].likes);

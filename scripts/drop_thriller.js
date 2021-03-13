@@ -1,4 +1,4 @@
-// ### Sort-function (by Gernre) ###
+// ### Filter movies by Genre (and then sort them by likes) ###
 
 document
   .getElementById("dropThrill")

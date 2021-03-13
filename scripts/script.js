@@ -23,7 +23,7 @@ function movieCards() {
       movies[i].genre +
       ", " +
       movies[i].year +
-      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1'><img src='./images/like_star.png'>" + // ### Like-button counter target ###
+      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1' disabled><img src='./images/like_star.png'>" + // ### Like-button counter target ###
       movies[i].likes +
       "</button></div></div></div></div></div>";
   }

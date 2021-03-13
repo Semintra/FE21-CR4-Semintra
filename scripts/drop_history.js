@@ -25,11 +25,11 @@ function newCardsHistory() {
       listHistories[i].description +
       "</p><p class='card-text'>directed by: " +
       listHistories[i].director +
-      "</p><div class='text-muted'>" +
+      "</p><div>" +
       listHistories[i].genre +
       ", " +
       listHistories[i].year +
-      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1'><img src='./images/like_star.png'>" + // ### Like-button counter target ###
+      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1' disabled><img src='./images/like_star.png'>" + // ### Like-button counter target ###
       listHistories[i].likes +
       "</div></div></div></div></div>";
   }

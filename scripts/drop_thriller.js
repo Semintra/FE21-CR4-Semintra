@@ -25,11 +25,11 @@ function newCardsThrill() {
       listThrillers[i].description +
       "</p><p class='card-text'>directed by: " +
       listThrillers[i].director +
-      "</p><div class='text-muted'>" +
+      "</p><div>" +
       listThrillers[i].genre +
       ", " +
       listThrillers[i].year +
-      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1'><img src='./images/like_star.png'>" + // ### Like-button counter target ###
+      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1' disabled><img src='./images/like_star.png'>" + // ### Like-button counter target ###
       listThrillers[i].likes +
       "</div></div></div></div></div>";
   }

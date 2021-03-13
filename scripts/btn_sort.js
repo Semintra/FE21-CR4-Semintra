@@ -1,4 +1,4 @@
-// ### Sort-function ###
+// ### Sort-function (by Likes) ###
 
 document.getElementById("sort").addEventListener("click", sortBtn);
 

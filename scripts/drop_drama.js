@@ -4,6 +4,8 @@ document.getElementById("dropDrama").addEventListener("click", searchSortDrama);
 
 const listDramas = movies.filter((e) => e.genre.includes("Drama"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortDrama() {
   listDramas.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -11,6 +13,8 @@ function searchSortDrama() {
   newCardsDrama();
   newDramaLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsDrama() {
   for (i = 0; i < listDramas.length; i++) {
@@ -32,6 +36,8 @@ function newCardsDrama() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newDramaLikeBtns() {
   for (let i in listDramas) {

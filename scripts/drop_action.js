@@ -6,6 +6,8 @@ document
 
 const listActions = movies.filter((e) => e.genre.includes("Action"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortAction() {
   listActions.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortAction() {
   newCardsAction();
   newActionLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsAction() {
   for (i = 0; i < listActions.length; i++) {
@@ -34,6 +38,8 @@ function newCardsAction() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newActionLikeBtns() {
   for (let i in listActions) {

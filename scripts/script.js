@@ -28,7 +28,7 @@ function movieCards() {
       "</button></div></div></div></div></div>";
   }
 
-  // ### Checking if the movies' ranks
+  // ### Checking for movies' ranks - if there are any likes yet. ###
 
   if (movies[0].likes > 0) {
     document.getElementById("rCard0").innerHTML +=

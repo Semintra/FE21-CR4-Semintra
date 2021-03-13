@@ -6,6 +6,8 @@ document
 
 const listComedies = movies.filter((e) => e.genre.includes("Comedy"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortComedy() {
   listComedies.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortComedy() {
   newCardsComedy();
   newComedyLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsComedy() {
   for (i = 0; i < listComedies.length; i++) {
@@ -34,6 +38,8 @@ function newCardsComedy() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newComedyLikeBtns() {
   for (let i in listComedies) {

@@ -6,6 +6,8 @@ document
 
 const listHistories = movies.filter((e) => e.genre.includes("Historical"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortHistory() {
   listHistories.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortHistory() {
   newCardsHistory();
   newHistoryLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsHistory() {
   for (i = 0; i < listHistories.length; i++) {
@@ -34,6 +38,8 @@ function newCardsHistory() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newHistoryLikeBtns() {
   for (let i in listHistories) {

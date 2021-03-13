@@ -6,6 +6,8 @@ document
 
 const listMysteries = movies.filter((e) => e.genre.includes("Mystery"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortMystery() {
   listMysteries.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortMystery() {
   newCardsMystery();
   newMysteryLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsMystery() {
   for (i = 0; i < listMysteries.length; i++) {
@@ -34,6 +38,8 @@ function newCardsMystery() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newMysteryLikeBtns() {
   for (let i in listMysteries) {

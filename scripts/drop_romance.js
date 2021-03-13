@@ -6,6 +6,8 @@ document
 
 const listRomances = movies.filter((e) => e.genre.includes("Romance"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortRomance() {
   listRomances.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortRomance() {
   newCardsRoman();
   newRomanLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsRoman() {
   for (i = 0; i < listRomances.length; i++) {
@@ -34,6 +38,8 @@ function newCardsRoman() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newRomanLikeBtns() {
   for (let i in listRomances) {

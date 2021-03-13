@@ -1,8 +1,10 @@
-////////////////////////////////////////////////////
+// ### General styles begin here ###
 
 body {
   background-image: url(../images/dark_wood.png);
 }
+
+// ### Bootstrap 5.0 styles begin here ###
 
 #carousel {
   height: 15.1em;
@@ -19,29 +21,7 @@ body {
   }
 }
 
-.navbar {
-  background-color: #f1eedf;
-  border-radius: 0.3em;
-  box-shadow: 0px 3px 4px black;
-  padding-top: 0.1em;
-  img {
-    position: absolute;
-    width: 6.5em;
-    left: 8em;
-    bottom: -0.4em;
-  }
-}
-
-.btn {
-  box-shadow: 0px 2px 3px black;
-}
-
-.container {
-  border-radius: 0.5em;
-  background-color: #5c0000;
-  padding-bottom: 0.75em;
-  box-shadow: 0px 3px 4px black;
-}
+// ### Header styles begin here ###
 
 .topheader {
   padding-top: 0.8em;
@@ -63,11 +43,39 @@ body {
   box-shadow: 0px 2px 3px black;
 }
 
+// ### Nav-bar styles begin here ###
+
+.navbar {
+  background-color: #f1eedf;
+  border-radius: 0.3em;
+  box-shadow: 0px 3px 4px black;
+  padding-top: 0.1em;
+  img {
+    position: absolute;
+    width: 6.5em;
+    left: 8em;
+    bottom: -0.4em;
+  }
+}
+
+.btn {
+  box-shadow: 0px 2px 3px black;
+}
+
 .navi {
   background-color: #919080;
   box-shadow: 0px 3px 4px black;
   border-radius: 0.3em;
   padding: 0.3em;
+}
+
+// ### Content styles begin here ###
+
+.container {
+  border-radius: 0.5em;
+  background-color: #5c0000;
+  padding-bottom: 0.75em;
+  box-shadow: 0px 3px 4px black;
 }
 
 #content {
@@ -78,6 +86,8 @@ body {
   border-radius: 0.4em;
   box-shadow: 0px 3px 4px black;
 }
+
+// ### Movie-cards styles begin here ###
 
 .card {
   background-color: #5a0000;
@@ -102,6 +112,8 @@ body {
     width: 1.5em;
   }
 }
+
+// ### Footer styles begin here ###
 
 .footer {
   background-color: #f1eedf;
@@ -136,7 +148,14 @@ body {
   box-shadow: 0px 3px 4px black;
 }
 
-// ### Media-queries for Carousel-images ###
+///////////////////////////////////////////////
+// ### Media-queries for Carousel-images ### //
+///////////////////////////////////////////////
+
+// ### I tried to fix the carousel for not putting pictures properly,
+// ### like when reducing the size slowly below breakpoints. It worked
+// ### "somehow" as I tried to set Bootstrap's breakpoints. There seem to
+// ### some minor differences between browsers though regarding this.
 
 @media screen and (max-width: 575px) {
   #carousel {

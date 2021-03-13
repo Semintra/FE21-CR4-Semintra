@@ -6,6 +6,8 @@ document
 
 const listAdventuries = movies.filter((e) => e.genre.includes("Adventure"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortAdventure() {
   listAdventuries.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortAdventure() {
   newCardsAdventure();
   newAdventureLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsAdventure() {
   for (i = 0; i < listAdventuries.length; i++) {
@@ -34,6 +38,8 @@ function newCardsAdventure() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newAdventureLikeBtns() {
   for (let i in listAdventuries) {

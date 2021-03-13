@@ -6,6 +6,8 @@ document
 
 const listHorrors = movies.filter((e) => e.genre.includes("Horror"));
 
+// ### Clear Content-container from old cards ###
+
 function searchSortHorror() {
   listHorrors.sort((a, b) => b.likes - a.likes);
   const newCards = document.getElementById("content");
@@ -13,6 +15,8 @@ function searchSortHorror() {
   newCardsHorror();
   newHorrorLikeBtns();
 }
+
+// ### Build up new Genre-cards ###
 
 function newCardsHorror() {
   for (i = 0; i < listHorrors.length; i++) {
@@ -34,6 +38,8 @@ function newCardsHorror() {
       "</div></div></div></div></div>";
   }
 }
+
+// ### Add new like-buttons for the new cards ###
 
 function newHorrorLikeBtns() {
   for (let i in listHorrors) {

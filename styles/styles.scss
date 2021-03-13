@@ -9,6 +9,7 @@ body {
   background-color: #5c0000;
   margin-bottom: 0.5em;
   overflow: hidden;
+
   div {
     height: 100%;
     img {
@@ -21,6 +22,7 @@ body {
 .navbar {
   background-color: #f1eedf;
   border-radius: 0.3em;
+  box-shadow: 0px 3px 4px black;
   img {
     position: absolute;
     width: 6em;
@@ -33,6 +35,7 @@ body {
   border-radius: 0.5em;
   background-color: #5c0000;
   padding-bottom: 0.75em;
+  box-shadow: 0px 3px 4px black;
 }
 
 .topheader {
@@ -52,10 +55,12 @@ body {
   border-radius: 0.1em;
   margin-bottom: 0.13em;
   border-bottom-left-radius: 0.1em;
+  box-shadow: 0px 2px 3px black;
 }
 
 .navi {
   background-color: #919080;
+  box-shadow: 0px 3px 4px black;
   border-radius: 0.3em;
   padding: 0.3em;
 }
@@ -66,17 +71,20 @@ body {
   background-size: contain;
   padding-top: 2em;
   border-radius: 0.4em;
+  box-shadow: 0px 3px 4px black;
 }
 
 .card {
   background-color: #5a0000;
   padding: 0.5em;
   border-radius: 0.4em;
+  box-shadow: 0px 3px 4px black;
 }
 
 .inCard {
   background-image: url(../images/dark_wood.png);
   border-radius: 0.3em;
+  box-shadow: 0px 3px 4px black;
   img {
     border-radius: 0.2em;
   }
@@ -85,10 +93,17 @@ body {
 .footer {
   background-color: #f1eedf;
   border-radius: 0.3em;
-  font-family: "Monoton", cursive;
-  font-size: 5.5rem;
-  color: white;
-  text-shadow: 4px 2px 0px black;
+  font-family: "Ranchers", cursive;
+  font-size: 3em;
+  color: #444444;
+  text-shadow: 3px 2px 0px black;
+  box-shadow: 0px 3px 4px black;
+  img {
+    width: 1.5em;
+  }
+  a img {
+    width: 0.5em;
+  }
 }
 
 .footerOut {
@@ -97,6 +112,15 @@ body {
   border-radius: 0.3em;
   padding-top: 0.2em;
   padding-bottom: 0.65em;
+  box-shadow: 0px 3px 4px black;
+}
+
+#social {
+  height: 0.7em;
+  padding-top: 0.1em;
+  border-radius: 0.1em;
+  background-color: #868686;
+  box-shadow: 0px 3px 4px black;
 }
 
 // ### Media-queries for Carousel-images ###

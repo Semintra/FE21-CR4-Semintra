@@ -27,7 +27,7 @@ function newCardsDrama() {
       listDramas[i].genre +
       ", " +
       listDramas[i].year +
-      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
+      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1'><img src='./images/like_star.png'>" + // ### Like-button counter target ###
       listDramas[i].likes +
       "</div></div></div></div></div>";
   }
@@ -43,7 +43,7 @@ function newDramaLikeBtns() {
     bcount[i].addEventListener("click", addLike);
     function addLike() {
       let up = parseInt(listDramas[i].likes) + 1;
-      countTarget[i].innerHTML = up;
+      countTarget[i].innerHTML = "<img src='./images/like_star.png'>" + up;
       listDramas[i].likes = up;
       //JSON.stringify();             // ### This was just a test ###
     }

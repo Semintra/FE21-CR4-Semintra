@@ -10,7 +10,7 @@ function btnLikes() {
     bcount[i].addEventListener("click", addLike);
     function addLike() {
       let up = parseInt(movies[i].likes) + 1;
-      countTarget[i].innerHTML = up;
+      countTarget[i].innerHTML = "<img src='./images/like_star.png'>" + up;
       movies[i].likes = up;
       //JSON.stringify();             // ### This was just a test ###
     }

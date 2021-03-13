@@ -29,7 +29,7 @@ function newCardsHorror() {
       listHorrors[i].genre +
       ", " +
       listHorrors[i].year +
-      "  likes</div><div><button class='liCount btn btn-sm btn-secondary'>" + // ### Like-button counter target ###
+      " <button class='liCount btn btn-sm btn-secondary ps-1 ms-3 pb-0 pt-1'><img src='./images/like_star.png'>" + // ### Like-button counter target ###
       listHorrors[i].likes +
       "</div></div></div></div></div>";
   }
@@ -45,7 +45,7 @@ function newHorrorLikeBtns() {
     bcount[i].addEventListener("click", addLike);
     function addLike() {
       let up = parseInt(listHorrors[i].likes) + 1;
-      countTarget[i].innerHTML = up;
+      countTarget[i].innerHTML = "<img src='./images/like_star.png'>" + up;
       listHorrors[i].likes = up;
       //JSON.stringify();             // ### This was just a test ###
     }
